@@ -1,9 +1,18 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Salário",
+      "type": "income",
+      "price": 2500,
+      "createdAt": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "description": "Compras",
+      "type": "outcome",
+      "price": 150,
+      "createdAt": "2023-01-02T15:30:00Z"
+    }
+  ]
 }
